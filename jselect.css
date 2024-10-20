@@ -1,0 +1,113 @@
+.j-selection-area .j-selection-label-default {
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	min-height: 20px;
+	padding: 8px 5px;
+}
+
+.j-selection-area .j-selection-label-material {
+	cursor: pointer;
+	border: 1px solid #cccccc;
+	min-height: 36px;
+	padding: 5px 5px;
+}
+
+.j-selection-area .j-selection-label .j-label {
+	float: left;
+	padding: 0px 4px;
+}
+
+.j-selection-area .j-selection-label {
+	cursor: pointer;
+}
+
+.j-toggle-selection {
+	float: right;
+	cursor: pointer;
+}
+
+.j-selection-area .j-selection-list {
+	display: none;
+	position: absolute;
+	background: white;
+	border: 1px solid #dedede;
+	z-index: 1;
+}
+
+.j-selection-area .j-selection-list ul.j-list {
+	list-style: none;
+	padding: 3px 0px;
+	max-height: 150px;
+	overflow-y: auto;
+}
+
+.j-selection-area .j-selection-list ul.j-list li.j-list-item {
+	text-align: left;
+	cursor: pointer;
+	padding: 0px 10px;
+}
+
+.j-selection-area .j-selection-list ul.j-list li.j-list-group {
+	text-align: left;
+	padding: 0px 10px;
+	font-weight: bold;
+}
+
+.j-selection-area .j-selection-list ul.j-list li.j-item-pad {
+	padding-left: 30px;
+}
+
+.j-selection-area .j-selection-list ul.j-list li.j-item-noresult {
+	display: none;
+	color: #ff6060;
+	font-weight: bold;
+	text-align: center;
+}
+
+.j-selection-area .j-selection-list ul.j-list li.j-list-item:hover {
+	background: #bbbbbb;
+}
+
+.j-selection-area .j-selection-list ul.j-list li.j-list-item:active {
+	background: #717171;
+	color: white;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+.j-selection-area .j-selection-list .j-select-input {
+	display: none;
+}
+
+.j-selection-area .j-selection-list ul.j-list li.active {
+	background: #bbbbbb;
+	font-weight: bold;
+}
+
+.j-selection-area .j-selection-list ul.j-list li.j-item-pad.active {
+	font-weight: normal;
+}
+
+.j-selection-area .j-selection-list .j-select-search-area {
+	padding: 3px 5px;
+	border: 1px solid #dedede;
+	text-align: center;
+}
+
+.j-selection-area .j-selection-list .j-select-search-area .j-selection-search {
+	width: 98%;
+	padding: 3px 7px;
+	border: 1px solid #d4d4d4;
+}
+
+.j-selection-area .j-selection-list .j-select-operations {
+	padding: 3px 5px;
+	border: 1px solid #dedede;
+	text-align: right;
+}
+
+.j-select-clear,
+.j-select-close {
+	margin: 0px 4px;
+}
