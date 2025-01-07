@@ -246,7 +246,7 @@ class JSelect {
             } else if (option.value) {
                 let isActive = ((option.selected && this.isMultiple) || (option.selected && !selected)) ? 'active' : '';
                 if (this.isOptGroup) {
-                    isActive += ` ${this.classes.itemPad}`;
+                    isActive += `${this.classes.itemPad}`;
                 }
 
                 let itemLi = document.createElement('li');
